@@ -1,0 +1,13 @@
+{
+  "name": "kuuga-template",
+  "version": "1.0.0",
+  "scripts": {
+    "init": "kuuga init",
+    "add": "kuuga add",
+    "validate": "kuuga validate",
+    "build": "kuuga build"
+  },
+  "dependencies": {
+    "kuuga-cli": "^0.11.2"
+  }
+}
