@@ -15,7 +15,7 @@ WORKDIR /app
 
 COPY . .
 RUN ipfs init
-RUN npm i -g kuuga-cli@0.11.1
+RUN npm i -g kuuga-cli@0.12.1
 
 EXPOSE 4001
 
