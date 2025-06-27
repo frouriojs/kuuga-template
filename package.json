@@ -6,9 +6,10 @@
     "init": "kuuga init",
     "add": "kuuga add",
     "validate": "kuuga validate",
-    "build": "kuuga build"
+    "build": "kuuga build",
+    "pinata": "kuuga pinata"
   },
   "dependencies": {
-    "kuuga-cli": "^0.12.1"
+    "kuuga-cli": "^0.15.1"
   }
 }
