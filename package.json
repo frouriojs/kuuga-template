@@ -5,11 +5,12 @@
     "postinstall": "npm run init",
     "init": "kuuga init",
     "add": "kuuga add",
+    "fetch": "kuuga fetch",
     "validate": "kuuga validate",
     "build": "kuuga build",
     "pinata": "kuuga pinata"
   },
   "dependencies": {
-    "kuuga-cli": "^0.15.1"
+    "kuuga-cli": "^0.20.4"
   }
 }

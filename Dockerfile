@@ -18,7 +18,7 @@ ARG KUUGA_KEY
 COPY . .
 RUN echo $KUUGA_KEY
 RUN ipfs init
-RUN npm i -g kuuga-cli@0.15.1
+RUN npm i -g kuuga-cli@0.20.4
 
 EXPOSE 4001
 

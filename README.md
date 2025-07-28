@@ -21,6 +21,7 @@ https://nodejs.org
 $ git clone https://github.com/frouriojs/kuuga-template.git
 $ cd kuuga-template
 $ npm install
+$ npm run init
 ```
 
 ### 3. 新しい原稿ディレクトリの追加
@@ -47,6 +48,7 @@ npm run build
 
 ```
 /
+├── .gitignore
 ├── Dockerfile                    # IPFSノード用
 ├── .github/workflows/build-papers.yml  # 自動ビルド設定
 ├── drafts/                       # 原稿ディレクトリ
